@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="mayour-프로필 링크" />
+        <meta property="og:description" content="메이유어의 모든 컬러" />
+        <meta property="og:image" content="21~32.jpg" />
+        <title>mayour-프로필 링크</title>
+        <style>
+              @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+                * {
+                    font-family: "Pretendard",serif;
+                }
+
+            body {
+                background-color: beige;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                margin-top:  12px;
+
+                background-color: #606754;
+                border-radius: 100%;
+                border : 2px solid white;
+                background-image: url(21~32.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .main{
+              color: white;
+              font-size: 23px; 
+
+              margin-top:  20px;
+              margin-bottom: 10px;
+            
+            }
+            .sub{
+                color: white;
+                font-size: 13px;
+
+                margin-top:  10px;
+              margin-bottom: 20px;
+            }
+            .warp{
+                background-color: #606754;
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .warp > a {
+                width: 250px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #606754;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+
+              
+            }
+            .warp > a:hover {
+             background-color: beige;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="warp">
+            <div class="profile"></div>
+            <h1 class="main">mayour</h1>
+            <p class="sub">당신의 이상을 재현할 모든 분위기</p>
+            <a target="_blank" href="https://mayour.co.kr//">메이유어 홈페이지</a>
+            <a target="_blank" href="https://smartstore.naver.com/mayour">메이유어 스토어팜</a>
+            <a target="_blank" href="https://www.youtube.com/channel/UC7csquh1Ewm5h5I5OUZTBMQ/">메이유어 유튜브</a>
+            <a target="_blank" href="https://www.instagram.com/mayour_korea/">메이유어 인스타그램</a>
+        </div>       
+    </body>
+</html>
